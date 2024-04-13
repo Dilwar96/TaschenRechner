@@ -105,7 +105,12 @@ const TaschenRechner = () => {
               value="0"
               onClick={(e) => setValue(value + e.target.value)}
             />
-            <input type="button" value="=" className="equal" />
+            <input
+              type="button"
+              value="="
+              className="equal"
+              onClick={() => setValue(eval(value))}
+            />
           </div>
         </form>
       </div>
