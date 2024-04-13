@@ -43,5 +43,8 @@ form .display input {
   font-size: 40px;
   padding: 5px 10px;
   background-color: rgb(64, 64, 64);
+}
 
+form input.equal {
+  width: 120px;
 }
